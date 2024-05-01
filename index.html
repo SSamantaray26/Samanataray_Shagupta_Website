@@ -1,11 +1,124 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <link rel="stylesheet" href="index.css">
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
-    <div></div>
-  </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kasama</title>
+    <link rel="stylesheet" href="stylesheet/stylesheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Markazi+Text:wght@400..700&display=swap" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <img src="images/Group 1.png" width="400" height="200">
+            <a href="a" class="nav-links">Menu</a>
+            <a href="a" class="nav-links">Orders</a>
+            <a href="a" class="nav-links">About</a>
+            <button class="h-menu">Menu</button>
+        </nav>
+    </header>
+    <section class="banner">
+        <div class="slider">
+          <img src="images/image 1.png " width="1500">
+    </div>
+    </section>
+    <section>
+        <img src="" width="1500">
+        <div class="mobile-nav" style="display:none;">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+        <button id="hide">click</button>
+    <button id="show">Menu</button>
+    </section>
+    <section>
+        <h2  href="a" class="green-bg padding"><a href="#"class="button">Order Full Menu</a></h2>
+    </section>
+    <section class="pink">
+        <h2 class="red"> Special Dishes</h2><link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&family=Inter:wght@100..900&family=Markazi+Text:wght@400..700&display=swap" rel="stylesheet">
+    <div class="flex-container">
+        <div class="items">
+        <img src="images/Rectangle 3.png" width="343" height="687">
+        <div class="text-white">
+        <h2 class="Inknut">Veggie Shrimp Egg Noodles</h2>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&family=Inter:wght@100..900&family=Markazi+Text:wght@400..700&display=swap" rel="stylesheet">
+        <p class="Inria">Shrimp, beans, red pepper, green onions, sesame seeds, eggs</p>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inter:wght@100..900&family=Markazi+Text:wght@400..700&display=swap" rel="stylesheet">
+        </div>
+        </div>
+        <div class="items">
+          <img src="images/Rectangle 4.png" width="343" height="687">
+          <div class="text-white">
+          <h2 class="Inknut">Hawaiian Bowl</h2>
+          <p class="Inria">Rice topped with stir-fried all mixed and basil with fried egg</p>
+        </div>
+        </div>
+    </div>
+    <div class="flex-container">
+        <div class="items">
+           <img src="images/image 2.png" width="343" height="687">
+           <div class="text-white">
+                <h2 class="Inknut">Hawaiian Poke</h2>
+                <p class="Inria">Salmon, veggie fry, sesame seeds, green onions</p>
+           </div>
+        </div>
+           <div class="items">
+        <img src="images/image 3.png" width="343" height="687">
+        <div class="text-white">
+        <h2 class="Inknut">Ahi Katsu Sushi Taco</h2>
+        <p class="Inria">Fried fish, red lettuce, green onions, carrots, white rice</p>
+        </div>
+        </div>
+    </div>
+    </section>
+    <section class="burgendy">
+        <div.a class="flex-container">
+            <div.a class="items">
+        <h2 class="green">Favorites Dish</h2>
+        <img src="images/image 4.png" width="343" height="687">
+        </div.a>
+        <div.a class="flex-container">
+            <div.a class="items">
+                <div class="text-white">
+        <h2 class="Inknut">Vegan Tofu Bowl</h2>
+        <p class="Inria">Seaweed, watermelon radish, cucumber, edamame beans and rice noodles</p>
+        </div.a>
+    </div>
+    </section>
+    <section class="darkpink">
+        <div class="text-align: center">
+            <div class="text-white">
+        <p class="InriaSerif">Reservations available Tuesday-Saturday 1-9pm</p>
+        <p class="InriaSerif">Contact 1-800-555-624</p>
+        <p class="InriaSerif">1001 N.Winchester Ave. Chicago, Illinois 60622</p>
+        </div>
+        </div>
+    </section>
+    <script>
+        $("#hide").click(function(){
+
+       $(".mobile.nav").fadeOut();
+     })
+     $("#show").click(function(){
+       $(".mobile-nav").slideDown();
+     });
+     $('#close-click').click(function(){
+        $('click').hide();
+     })
+   </script>
+</body>
 </html>

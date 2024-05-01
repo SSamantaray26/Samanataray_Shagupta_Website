@@ -1,0 +1,276 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+img {
+    vertical-align: middle;
+}
+h2, p {
+    margin: 0;
+}
+.green-bg {
+    background-color:aquamarine;
+    color: white;
+    text-align: center;
+    font-family: 'Markazi Text';font-size: 48px; 
+}
+.button {
+    text-decoration: none;
+}
+.padding {
+padding-top: 20px;
+padding-bottom: 20px;
+}
+.Inknut {
+    font-family: 'Inknut Antiqua';font-size: 32px;
+}
+.Inria {
+    font-family: 'Inria Serif';font-size: 32px;
+}
+.InriaSerif {
+    font-family:'Inria Serif';font-size: 36px; 
+}
+.red {
+    color:red;
+    text-align: center; 
+    font-family: 'Inknut Antiqua';font-size: 32px;
+}
+.green {
+    color: green;
+    font-family: 'Inknut Antiqua';font-size: 32px;
+}
+.pink {
+    background-color: rgb(169, 113, 122)
+}
+.burgendy {
+    background-color: darkred 
+}
+.darkpink {
+    background-color: rgb(179, 64, 119) 
+}  
+div {
+    text-align:center; 
+}
+div.a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-white {
+    color: rgb(214, 208, 208);
+}
+.flex-container {
+    display: flex;
+}
+.items {
+    padding-left:6px;
+    padding-right:6px;
+    flex-basis:50%;
+    text-align:center;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+.header {
+    background-color:rgb(210, 151, 161);
+    display: flex;
+    justify-content: center;
+}
+.nav {
+    display: flex;
+    align-items: center;
+}
+.nav a {
+    padding: 0 16px;
+    color: rgb(8, 50, 30);
+    text-decoration: none;
+    font-family:'Inter';
+    font-weight: bold;
+    font-size: 48px;
+}
+.nav img {
+    min-width: 80px;
+}
+.h-menu {
+    display: none;
+    border: none;
+    background-color: none;
+}
+.button {
+    text-align: center;
+    color: white;
+}
+.h-menu:hover {
+    cursor: pointer;
+}
+.material-symbol-outlined {
+    font-size: 22px !important;
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+img {
+    vertical-align: middle;
+}
+h2, p {
+    margin: 0;
+}
+.green-bg {
+    background-color:aquamarine;
+    color: white;
+    text-align: center;
+    font-family: 'Markazi Text';font-size: 48px; 
+}
+.button {
+    text-decoration: none;
+}
+.padding {
+padding-top: 20px;
+padding-bottom: 20px;
+}
+.Inknut {
+    font-family: 'Inknut Antiqua';font-size: 32px;
+}
+.Inria {
+    font-family: 'Inria Serif';font-size: 32px;
+}
+.InriaSerif {
+    font-family:'Inria Serif';font-size: 36px; 
+}
+.red {
+    color:red;
+    text-align: center; 
+    font-family: 'Inknut Antiqua';font-size: 32px;
+}
+.green {
+    color: green;
+    font-family: 'Inknut Antiqua';font-size: 32px;
+}
+.pink {
+    background-color: rgb(169, 113, 122)
+}
+.burgendy {
+    background-color: darkred 
+}
+.darkpink {
+    background-color: rgb(179, 64, 119) 
+}  
+div {
+    text-align:center; 
+}
+div.a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-white {
+    color: rgb(214, 208, 208);
+}
+.flex-container {
+    display: flex;
+}
+.items {
+    padding-left:6px;
+    padding-right:6px;
+    flex-basis:50%;
+    text-align:center;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+.header {
+    background-color:rgb(210, 151, 161);
+    display: flex;
+    justify-content: center;
+}
+.nav {
+    display: flex;
+    align-items: center;
+}
+.nav a {
+    padding: 0 16px;
+    color: rgb(8, 50, 30);
+    text-decoration: none;
+    font-family:'Inter';
+    font-weight: bold;
+    font-size: 48px;
+}
+.nav img {
+    min-width: 80px;
+}
+.h-menu {
+    display: none;
+    border: none;
+    background-color: none;
+}
+.button {
+    text-align: center;
+    color: white;
+}
+.h-menu:hover {
+    cursor: pointer;
+}
+.material-symbol-outlined {
+    font-size: 22px !important;
+}
+@media (max-width: 500px) {
+    .nav-links {
+        display: none;
+    }
+    .h-menu {
+        display: inline-block;
+    }
+    .nav {
+        flex-basis: 100%;
+        justify-content: space-between;
+    }
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+.nav p {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 22px
+}
+.mobile-nav {
+    background-color:black;
+    color:white;
+    display: none;
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+}
+li {
+    padding: 10px 20px;
+}
+li a {
+    text-decoration: none;
+    color: white;
+}
+
+@media (max-width: 500px) {
+    .nav-links {
+        display: none;
+    }
+    .h-menu {
+        display: inline-block;
+    }
+    .nav {
+        flex-basis: 100%;
+        justify-content: space-between;
+    }
+}
